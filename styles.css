@@ -1,0 +1,102 @@
+header {
+    display: flex;
+    width: 100%;
+    height: 120px;
+    margin: 0 0;
+    background-color: #a051a2;
+    align-items: center;
+    position: fixed;
+}
+
+footer {
+    background-color: #a051a2;
+    padding: 20px;
+    text-align: center;
+}
+
+.nav {
+    margin: 100px 0;
+}
+
+.title {
+    background-color: #be86c8;
+    margin-right: auto;
+    width: 30%;
+    padding: 1.5rem 2rem;
+    color: white;
+    -webkit-box-shadow: 5px 5px 0 white;
+    box-shadow: 5px 5px 0 white;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+.menu-item {
+    list-style: none;
+    width: 5% 0.3em;
+    display: inline-block;
+    padding: 10px;
+}
+
+.btn-flat-border {
+    display: inline-block;
+    padding: 0.3em 1em;
+    text-decoration: none;
+    color: white;
+    border: solid 2px #be86c8;
+    border-radius: 3px;
+    transition: .4s;
+}
+
+.pic {
+    width: 100vw;
+    padding: 100px 0 0 0;
+}
+
+body {
+    background-color: #a051a2;
+}
+
+.contents-title {
+    position: relative;
+    margin: 0 0;
+    padding: 10px;
+    background: -webkit-linear-gradient(to right, #d7abdf, #a051a2);
+    background: linear-gradient(to right, #f8ceff, #a051a2);
+    color: black;
+    font-weight: lighter;
+    -webkit-box-shadow: 5px 5px 0 white;
+    box-shadow: 5px 5px 0 white;
+    font-family: cursive;
+    font-size: 50px;
+}
+
+.contents {
+    background-color: #d7abdf;
+    padding: 10px 10px;
+}
+
+.profile {
+    padding: 10px 30px;
+    position: relative;
+}
+
+ul .profile-item {
+    color: black;
+    border-left: solid 8px #a051a2;
+    background: #f8ceff;
+    margin-bottom: 5px;
+    line-height: 3;
+    border-radius: 0 10px 10px 0;
+    padding: 0.5em;
+    list-style-type: none!important;
+}
+
+.elements {
+    padding: 5px;
+    margin: 5px;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+
+.captain {
+    font-weight: 100;
+}
